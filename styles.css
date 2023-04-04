@@ -105,3 +105,23 @@ a:last-child{
     overflow: hidden;
 }
 
+.effect.effect-4:before {
+	content: "\f2b6";
+	font-family: FontAwesome;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	transform: scale(0,1);
+}
+.effect.effect-4:hover {
+	text-indent: -1000px;
+}
+	
+.effect.effect-4:hover:before {
+	transform: scale(1, 1);
+	text-indent: 0; 
+}
